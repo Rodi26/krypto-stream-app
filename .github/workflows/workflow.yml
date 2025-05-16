@@ -75,8 +75,8 @@ jobs:
           JF_URL: https://${{ vars.JF_URL }}/
           JF_PROJECT: ${{ vars.JF_PROJECT }}
         with:
-            oidc-provider-name: ptfl-github
-            oidc-audience: ptfl-aud
+            oidc-provider-name: rodolphef-github
+            oidc-audience: rodolphef-aud
       
       - name: NPM Curation Audit 
         run: |
